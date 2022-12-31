@@ -18,7 +18,16 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+```python
+A=float(input())
+B=float(input())
+temp=A
+A=B
+B=temp
+print("Swapped values are:",A,B)
+```
+# OUTPUT:
+![OUTPUT](1.png)
 
 
 ## RESULT:
